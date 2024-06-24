@@ -1,0 +1,31 @@
+.all-bars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px; /* Reduce the space between the bars */
+    margin-top: 30px;
+    width: 80%;
+  }
+  
+  .progress-bar {
+    width: 20%; /* Adjust the width of each progress bar */
+    height: 6px;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  
+  
+  .progress-bar-fill {
+    height: 100%;
+    background-color: #3b82f6; /* Adjust the color of the progress fill */
+    transition: width 0.3s ease; /* Smooth transition animation */
+  }
+  
+  .progress-bar .progress-title {
+    color: #151717; /* Adjust the text color */
+    font-weight: 700; /* Adjust the font weight */
+    margin-top: 5px; /* Adjust spacing between progress bar and text */
+  }
